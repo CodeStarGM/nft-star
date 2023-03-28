@@ -1,0 +1,88 @@
+body::-webkit-scrollbar{
+    display: none;
+}
+body{
+    overflow-x: hidden;
+}
+
+.background_image{
+background: url('/background.png')
+no-repeat center center fixed;
+-webkit-background-size:  cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+width: 100%;
+z-index: -1; 
+}
+
+
+
+
+@media (min-width: 1536px){
+    .main_heading{
+        /* NFT МАРКЕТ */
+    /* font-family: 'TT Travels'; */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 154px;
+    /* identical to box height */
+    }
+
+}
+
+.gradient_text{
+    background: linear-gradient(99.46deg, #9DFE00 -10.9%, #14D9E6 97.14%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+
+.gradient_button{
+
+background: linear-gradient(99.46deg, #9DFE00 -10.9%, #14D9E6 97.14%);
+}
+
+
+.slider_button{
+    background: #212432;
+}
+
+.slider_button:hover{
+    background: linear-gradient(99.46deg, #9DFE00 -10.9%, #14D9E6 97.14%);
+
+}
+
+
+
+.gradient_box{
+background: linear-gradient(99.46deg, #9DFE00 -10.9%, #14D9E6 97.14%);
+border-radius: 50px;
+}
+
+.gradient_box_slider{
+background: linear-gradient(99.46deg, #9DFE00 -10.9%, #14D9E6 97.14%);
+border-radius: 50px;
+
+}
+
+.gradient_button_box{
+box-sizing: border-box;
+border-radius: 50px;
+transform: rotate(-90deg);
+
+background: rgba(255, 255, 255, 0.01);
+transform: rotate(-90deg);
+
+border: 7.5px solid #FBF8F3;
+transform: rotate(-90deg);
+
+}
+
+/* .gradient_box_slider::after{
+    content: "";
+background: linear-gradient(99.46deg, #9DFE00 -10.9%, #14D9E6 97.14%);
+opacity: 0.4;
+filter: blur(50px);
+} */
